@@ -9,4 +9,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
     - Dia em que projeto foi criado e arquivos adicionados.
-    -Criação de cabeçalho e Apresentação.
+    - Criação de cabeçalho e Apresentação.
