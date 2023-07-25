@@ -5,7 +5,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 ul,li,a {
-    list-style: none;
+    list-style: none; 
     text-decoration: none;
 }
 .container {
@@ -13,6 +13,8 @@ ul,li,a {
     width: 100%;
     margin: 0 auto;
 }
+
+/* CSS Header */
 
 .navbar__header {
     display: flex;
@@ -33,134 +35,234 @@ ul,li,a {
     color: #141C3A;
 }
 
-.section__title {
+/* CSS Section Apresentacao */
+
+.div__title {
     text-align: center;
     padding-top: 140px;
 }
-section h1 {
+
+.div__title h1 {
     font-size: 64px;
     font-weight: 500;
-    color: #141C3A;
     letter-spacing: 3px;
+    color: #141C3A;
     padding-bottom: 10px;
 }
-.section__title h3 {
+.div__title h3 {
     font-size: 36px;
     font-weight: 400;
     letter-spacing: 2.5px;
+    color: #141C3A;
 }
 
-.guilherme__cv h2 {
+.div__apresentacao .div__baixecv h2 {
     font-size: 96px;
+    font-weight: 400;
     letter-spacing: 2px;
     color: #000;
-    font-weight: 400;
-    filter: drop-shadow(2px 4px 1px rgba(95, 0, 186, 0.20));
 }
-.guilherme__cv p {
+.div__apresentacao .div__baixecv p {
     font-size: 20px;
+    font-weight: 400;
     letter-spacing: 3px;
-    font-weight: 500;
     color: #b7aeae;
+    padding: 20px 0;
 }
-.guilherme__cv button a {
-    letter-spacing: 3px;
-    font-weight: 400;
-    color: #fff;
-    font-size: 20px;
-}
-.guilherme__cv button {
+.div__apresentacao .div__baixecv button {
     background-color: #5f00ba;
     border: none;
+    padding: 18px 25px;
     border-radius: 150px;
-    width: 150px;
-    height: 59px;
+}
+.div__apresentacao .div__baixecv a {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #fff;
+}
+.div__baixecv {
+    text-align: center;
 }
 
-.download__cv {
+.div__apresentacao {
     display: flex;
-    padding-top: 150px;
+    align-items: center;
+    padding-top: 160px;
 }
-.section__apresentacao {
+
+.div__apresentacao .div__img img {
+    width: 100%;
+    display: inherit;
+}
+
+/* Section Sobre Mim */
+
+.section__sobremim {
     background-color: #5f00ba;
-    height: 600px;
+    height: 650px;
 }
-.section__apresentacao .article__apresentacao h2 {
-    font-size: 40px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    color: #fff;
+
+.div__sobre {
     text-align: center;
     padding-top: 70px;
-    padding-bottom: 70px;
 }
-.section__apresentacao .article__apresentacao p {
-    font-size: 24px;
+.section__sobremim .div__sobre h2 {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
     color: #fff;
-    letter-spacing: 3.5px;
+    padding-bottom: 50px;
+}
+.section__sobremim .div__sobre p {
+    font-size: 24px;
     font-weight: 400;
-    text-align: center;
-    line-height: 35px;
-
+    letter-spacing: 3px;
+    line-height: 38px;
+    color: #fff;
 }
 
-.article__linguagens {
-    background-color: #fff;
+/* Section Linguagens */
+
+.div__linguagens {
     display: flex;
     justify-content: space-evenly;
+    background-color: #fff;
     border-radius: 50px;
-    max-width: 1140px;
-    margin: 0 auto;
-    width: 100%;
     margin-top: 100px;
     border: 1px solid #5be9b9;
 }
 
-.article__linguagens .linguagem__designer,.linguagem__frontend {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 24px;
-    padding-bottom: 60px;
+.div__designer {
+    text-align: center;
+    padding: 30px 0;
 }
-
-.linguagem__designer h3,
-.linguagem__frontend h3 {
+.div__designer .designer__title h3 {
     font-size: 24px;
     font-weight: 500;
     letter-spacing: 2.5px;
-    color: #141C3A;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    color: #000;
+    padding: 15px 0;
 }
-
-
-.linguagem__designer p,
-.linguagem__frontend p {
+.div__designer .designer__title p {
     font-size: 20px;
-    letter-spacing: 2px;
     font-weight: 400;
+    letter-spacing: 2px;
     color: #3c3232;
-    text-align: center;
-    padding-top: 15px;
     padding-bottom: 15px;
+}
+.div__designer .designer__idiomas h4 {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #5f00ba;
+    padding-bottom: 15px;
+}
+.div__designer .designer__idiomas p {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    color: #000;
+    line-height: 33px;
 }
 
-.linguagem__designer h4,
-.linguagem__frontend h4 {
-    font-size: 20px;
-    letter-spacing: 3px;
-    color: #5f00ba;
-    font-weight: 500;
-    padding-top: 15px;
-    padding-bottom: 15px;
+/* Section Trabalhos */
+
+.div__trabalhos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.trabalhos__title {
     text-align: center;
 }
-.linguagem__designer span,
-.linguagem__frontend span {
+.section__trabalhos .trabalhos__title h2 {
+    font-size: 64px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    color: #141C3A;
+    padding-top: 80px;
+}
+.section__trabalhos .trabalhos__title p {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #141C3A;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.section__trabalhos .trabalhos__title a {
+    color: #0066cd;
+}
+
+.container__trabalhos {
+    position: relative;
+    margin-bottom: 100px;
+}
+.container__trabalhos .icon__trabalhos {
+    display: flex;
+    position: absolute;
+    top: 250px;
+    left: 495px;
+}
+.container__trabalhos .icon__trabalhos a {
+    margin-right: 15px;
+}
+
+/* Section Footer */
+
+footer {
     text-align: center;
-    display: block;
-    font-size: 17px;
+    background-color: #5f00ba;
+}
+footer .container__title h2 {
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    color: #fff;
+    padding: 50px 0;
+}
+.container__contatos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container__rodape p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    font-style: italic;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.container__info h4 {
+    font-size: 24px;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 0;
+}
+.container__info p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    color: #b7aeae;
+}
+
+.contatos__info {
+    margin-right: 50px;
+}
+
+.container__arrow {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+}
+.container__arrow img {
     color: #000;
 }

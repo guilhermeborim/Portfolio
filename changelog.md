@@ -9,4 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
     - Dia em que projeto foi criado e arquivos adicionados.
-    -Criação de cabeçalho e Apresentação.
+    - Criação de cabeçalho e Apresentação.
+
+## [1.1.2] - 2023-07-25
+
+### Fix
+    - Refazendo quase todo o css.
+    - Correção na imagem ao lado do baixe cv.
+    - Removendo e trocando algumas imagens.
+
+### Added
+    - Criação do rodapé.
+    - Criação dos trabalhos.
