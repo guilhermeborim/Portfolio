@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
     - Dia em que projeto foi criado e arquivos adicionados.
     - Criação de cabeçalho e Apresentação.
+<<<<<<< HEAD
 
 ## [1.1.2] - 2023-07-25
 
@@ -21,3 +22,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
     - Criação do rodapé.
     - Criação dos trabalhos.
+=======
+>>>>>>> ff06372e5a9d4517c3688d60201cdd2282a2972a
